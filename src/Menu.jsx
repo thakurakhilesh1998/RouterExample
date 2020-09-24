@@ -9,6 +9,7 @@ const Menu=()=>{
             <NavLink exact activeClassName="active" to="/">Home</NavLink>
             <NavLink exact activeClassName="active" to="/services">Services</NavLink>
             <NavLink exact activeClassName="active" to="/about">About</NavLink>
+            <NavLink exact activeClassName="active" to="/user">User</NavLink>
         </div>
     </>);
 }
