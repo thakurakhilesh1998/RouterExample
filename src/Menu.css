@@ -1,12 +1,23 @@
 
 .active
 {
-    color: blue;
-    border-bottom: 2px solid green;
+    color: yellow;
 }
 
 a
 {
     text-decoration: none;
     margin: 1rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.menu_style
+{
+    box-sizing: border-box;
+    padding: 0.4rem;
+    background-color: indigo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
